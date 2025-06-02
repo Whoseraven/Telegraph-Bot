@@ -10,13 +10,13 @@ async def start(client, message):
     user = message.from_user
     await db.add_user(client, message)                
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/RknDeveloper'),
-        InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/RknBots_Support')
+        InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Kirito_Bots'),
+        InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Whosekirito_Support')
         ],[
         InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
         ],[
-        InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/+7f8guXF7VCVjZjg0")
+        InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/+gvvO39zwSPtjOGU1")
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -32,13 +32,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[
-                InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/RknDeveloper'),
-                InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/RknBots_Support')
+                InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Kirito_Bots'),
+                InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Whosekirito_Support')
                 ],[
                 InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
                 ],[
-                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/+7f8guXF7VCVjZjg0")
+                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/+gvvO39zwSPtjOGU1")
     ]])
         )
     elif data == "help":
@@ -57,7 +57,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/RknDeveloper/Telegraph-Bot")
+                InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://t.me/Kirito_Bots")
             ],[
                 InlineKeyboardButton("Bᴀᴄᴋ", callback_data = "start")
             ]])            
