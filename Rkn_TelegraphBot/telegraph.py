@@ -46,7 +46,7 @@ async def getmedia(bot, update):
         InlineKeyboardButton(text="Open Link", url=f"https://graph.org{response[0]}"),
         InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://graph.org{response[0]}")
         ],[
-        InlineKeyboardButton(text="Join Updates Channel", url="https://telegram.me/RknDeveloper")
+        InlineKeyboardButton(text="Join Updates Channel", url="https://t.me/Kirito_Bots")
         ]])   
         await message.edit_text(
         text=text,
