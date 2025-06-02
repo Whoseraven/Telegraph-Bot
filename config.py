@@ -8,15 +8,15 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config get this from mongodb
-    DB_NAME = os.environ.get("DB_NAME","Rkn-Developer")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","sumitsajwan135")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://sumitsajwan135:gameno01@cluster0.ja0i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC = os.environ.get("START_PIC", "https://graph.org/file/f6c15009bce07058f1edb.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6151758586').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "RknDeveloper")
-    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1001944995812'))
+    START_PIC = os.environ.get("START_PIC", "https://te.legra.ph/file/06923cc70e2ecedcb2c8d-dd1ffb11c5eab68b07.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7577853954').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "Kirito_Bots")
+    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1002468277277'))
 
     # download file
     DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
@@ -34,7 +34,7 @@ I ᴀᴍ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴘʜ ʙᴏᴛ. sᴇɴᴅ ᴍᴇ ɪᴍ
 
     ABOUT_TXT = """<b>➤ Mʏ Nᴀᴍᴇ: {}
 ➤ Cʀᴇᴀᴛᴏʀ : <a href='tg://settings'>Tʜɪs Pᴇʀsᴏɴ</a>
-➤ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/RknDeveloper'>Rᴋɴ Dᴇᴠᴇʟᴏᴘᴇʀ</a>
+➤ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/whosekirito'>Rᴋɴ Dᴇᴠᴇʟᴏᴘᴇʀ</a>
 ➤ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org'>Pʏʀᴏɢʀᴀᴍ</a>
 ➤ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org'>Pʏᴛʜᴏɴ 3</a>
 ➤ Dᴀᴛᴀ Bᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ Dʙ</a>
