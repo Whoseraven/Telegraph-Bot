@@ -34,7 +34,7 @@ I ᴀᴍ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴘʜ ʙᴏᴛ. sᴇɴᴅ ᴍᴇ ɪᴍ
 
     ABOUT_TXT = """<b>➤ Mʏ Nᴀᴍᴇ: {}
 ➤ Cʀᴇᴀᴛᴏʀ : <a href='tg://settings'>Tʜɪs Pᴇʀsᴏɴ</a>
-➤ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/whosekirito'>Rᴋɴ Dᴇᴠᴇʟᴏᴘᴇʀ</a>
+➤ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/whosekirito'>Kɪʀɪᴛᴏᵈᵉᵛ</a>
 ➤ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org'>Pʏʀᴏɢʀᴀᴍ</a>
 ➤ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org'>Pʏᴛʜᴏɴ 3</a>
 ➤ Dᴀᴛᴀ Bᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ Dʙ</a>
