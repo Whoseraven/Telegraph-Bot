@@ -22,7 +22,7 @@ async def getmedia(bot, update):
                 message=update,
                 file_name=medianame
             )
-            response = upload_file(medianame)
+            response = upload_file(medianame)  # returns ['/file/abc123.jpg']
             try:
                 os.remove(medianame)
             except:
@@ -40,7 +40,7 @@ async def getmedia(bot, update):
             )
             return
 
-        src = response[0].get("src")
+        src = response[0]  # response is a list of strings like ['/file/abc123.jpg']
         text = f"**Link :-** `https://graph.org{src}`\n\n**𝑱𝒐𝒊𝒏 ⚡ :-** @Kirito_Bots"
         reply_markup = InlineKeyboardMarkup(
             [
